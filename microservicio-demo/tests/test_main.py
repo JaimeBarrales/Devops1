@@ -18,3 +18,13 @@ def test_saludo():
 def test_suma():
     response = client.get("/suma/3/4")
     assert response.json()["resultado"] == 7
+
+def test_resta():
+    response = client.get("/resta/10/4")
+    assert response.status_code == 200
+    assert response.json()["resultado"] == 6
+
+def test_multiplicacion():
+    response = client.get("/multiplicacion/3/4")
+    assert response.status_code == 200
+    assert response.json()["resultado"] == 12

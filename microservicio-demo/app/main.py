@@ -17,3 +17,11 @@ def saludar(nombre: str):
 @app.get("/suma/{a}/{b}")
 def sumar (a: int, b: int):
     return {"resultado": a + b}
+
+@app.get("/resta/{a}/{b}")
+def restar(a: int, b: int):
+    return {"a": a, "b": b, "resultado": a - b}
+
+@app.get("/multiplicacion/{a}/{b}")
+def multiplicar(a: int, b: int):
+    return {"a": a, "b": b, "resultado": a * b}
