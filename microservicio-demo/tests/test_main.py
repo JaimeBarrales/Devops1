@@ -23,3 +23,8 @@ def test_resta():
     response = client.get("/resta/10/4")
     assert response.status_code == 200
     assert response.json()["resultado"] == 6
+
+def test_multiplicacion():
+    response = client.get("/multiplicacion/3/4")
+    assert response.status_code == 200
+    assert response.json()["resultado"] == 12
