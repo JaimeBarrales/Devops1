@@ -29,5 +29,6 @@ Se usó Claude para depurar errores de configuración (Python/pip, GitHub Action
 
 ## Reflexiones individuales
 **[Jaime Barrales]:** _pendiente, sin IA_
+
 **[Francisca Alarcón]:** Durante este trabajo, aprendí a colaborar en GitHub, mediante branches, Pull Request, Workflows, entre otras cosas. 
 A resolver problemas como instalación de pip, a entender lo que era un HotFix, a como funcionaba los workflows y los distintos tipos que existen.
