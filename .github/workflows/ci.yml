@@ -9,6 +9,9 @@ on:
 jobs:
   build-test:
     runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: microservicio-demo
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
